@@ -159,7 +159,7 @@ p.reset-margin {
 
 .backgrond_1
 {
-  background-image: url(../img/back3.jpg);
+  background-image: url("../img/back3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
