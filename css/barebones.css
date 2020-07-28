@@ -178,7 +178,7 @@ body {
   font-weight: 400;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: var(--text-color-normal); 
-  /* background-color: var(--background-color);; */
+  /* background-color: var(--background-color); */
   background-image: url("../img/back3.jpg");
 }
 
