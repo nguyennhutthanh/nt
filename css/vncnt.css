@@ -156,10 +156,3 @@ p.reset-margin {
 
 /* Larger than tablet */
 @media (min-width: 1200px) {}
-
-.back1
-{
-  background-image: url("../img/back3.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
