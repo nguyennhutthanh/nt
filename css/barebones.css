@@ -15,9 +15,8 @@ html {
 	--border-color-softer: hsl(var(--theme-hue), 0%, 82%);	/* #d1d1d1		textarea,select,code,td,hr border	 */
 	--background-color-softer: hsl(var(--theme-hue), 0%, 95%);
   --code-background: hsl(var(--theme-hue), 0%, 95%);			/* #f1f1f1 		code background*/
-
-  background-size: cover;
-  background-repeat: no-repeat;
+  --background-size: cover;
+  --background-repeat: no-repeat;
 	--base-font-size: 62.5%;
   --grid-max-width: 960px;
   background-image: url(../img/back222.jpg);
@@ -97,12 +96,12 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-size: 1.6rem;		/* changed from 15px in orig skeleton */
+  font-size: 2rem;		/* changed from 15px in orig skeleton */
   line-height: 1.6;
-  font-weight: 400;
+  font-weight: 700;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: var(--text-color-normal); 
-  background-color: var(--background-color); 
+  background-color: #f51106;
 }
 
 

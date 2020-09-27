@@ -85,13 +85,14 @@ p.reset-margin {
   text-decoration: none;
   border-bottom: none;
   position: relative;
-  color: #555555;
+  color: #f51106;
 }
 
 /* Larger than mobile (default point when grid becomes active) */
 @media (min-width: 600px) {
   h1.h3-like, h2.h3-like {
     font-size: 3.6rem;
+    font-weight: 700;
   }
     
   .grid-container.fivetoseven {
