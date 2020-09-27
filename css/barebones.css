@@ -13,8 +13,7 @@ html {
 
   --border-color: hsl(var(--theme-hue), 0%, 73%);					/* #bbbbbb		button border */
 	--border-color-softer: hsl(var(--theme-hue), 0%, 82%);	/* #d1d1d1		textarea,select,code,td,hr border	 */
-	
-	--background-color: white;														/* transparent body background; textarea,select background */
+													/* transparent body background; textarea,select background */
 	--background-color-softer: hsl(var(--theme-hue), 0%, 95%);
   --code-background: hsl(var(--theme-hue), 0%, 95%);			/* #f1f1f1 		code background*/
 
@@ -22,7 +21,8 @@ html {
   
 	--base-font-size: 62.5%;
 	
-	--grid-max-width: 960px;
+  --grid-max-width: 960px;
+  background-image: url(./img/background.jpg);
 }
 @media (prefers-color-scheme: dark) {
 	:html {
