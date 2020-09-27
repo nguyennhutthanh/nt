@@ -19,7 +19,7 @@ html {
   --background-repeat: no-repeat;
 	--base-font-size: 62.5%;
   --grid-max-width: 960px;
-  background-image: url(../img/max.png);
+  --background-image: url(../img/max.png);
 }
 @media (prefers-color-scheme: dark) { 
 	:html {
