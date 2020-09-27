@@ -1,48 +1,6 @@
-/*
-* Barebones V3
-* Copyright 2019 Steve Cochran
-*
-* Based of Skeleton by Dave Gamache
-*
-* Free to use under the MIT license.
-*/
-
-/* Table of contents
-––––––––––––––––––––––––––––––––––––––––––––––––––
-- Media Breakpoints
-- Variables
-- Grid
-- Base Styles
-- Typography
-- Links
-- Buttons
-- Forms
-- Lists
-- Code
-- Tables
-- Spacing
-- Utilities
-- Clearing
-- Media Queries
-*/
-
-/* ENV Variables
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* Media breakpoint variables for use in media queries
-* 	Note: this section is currently commented out pending release of 
-* 	final CSS env() spec
-*  Breakpoints based on 
-*	 https://medium.freecodecamp.org/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862
-* 
-*/
-
-
-
 /* CSS Variables
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 html {
-
-	/* default theme: light background, dark text, blue accent */
 	--theme-hue: 0;					/* white */
 	--accent-hue: 194;			/* blue */
 
@@ -60,21 +18,12 @@ html {
 	--background-color-softer: hsl(var(--theme-hue), 0%, 95%);
   --code-background: hsl(var(--theme-hue), 0%, 95%);			/* #f1f1f1 		code background*/
 
-	--button-primary-color: white;
+  --button-primary-color: white;
   
-	
-	/* Note: Skeleton was based off a 10px font sizing for REM  */
-	/* 62.5% of typical 16px browser default = 10px */
 	--base-font-size: 62.5%;
 	
-	/* Grid Defaults - default to match orig skeleton settings */
 	--grid-max-width: 960px;
 }
-
-/*  Dark Theme
-	Note: prefers-color-scheme selector support is still limited, but 
-	included for future and an example of defining a different base 'theme'
-*/
 @media (prefers-color-scheme: dark) {
 	:html {
 		/* dark theme: light background, dark text, blue accent */
@@ -101,23 +50,7 @@ html {
 	img.value-img {
 		filter: invert(0.8);
 	}
-	/* TODO - test dialing back image intensity on dark background
-  img {
-    opacity: .80;
-    transition: opacity .5s ease-in-out;
-  }
-  img:hover {
-    opacity: 1;
-  }
-  */
 }
-
-
-/* Grid
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* CSS Grid depends much more on CSS than HTML, so there is less boilerplate
-	 than with skeleton. Only basic 1-4 column grids are included.
-	 Any additional needs should be made using custom CSS directives */
 
 
 .grid-container {
@@ -159,13 +92,6 @@ html {
 	}
 	
 }
-
-
-
-
-
-
-
 /* Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 html {
@@ -449,19 +375,8 @@ hr {
 .u-cf {
   content: "";
   display: table;
-  clear: both; }
-
-
-/* Media Queries
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-/*
-Note: The best way to structure the use of media queries is to create the queries
-near the relevant code. For example, if you wanted to change the styles for buttons
-on small devices, paste the mobile query code up in the buttons section and style it
-there.
-*/
-
-
+  clear: both; 
+}
 /* Larger than mobile (default point when grid becomes active) */
 @media (min-width: 600px) {}
 

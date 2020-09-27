@@ -1,26 +1,6 @@
-/*
-* vncnt.css
-* Copyright 2017-2019, Vincent von Schelm
-* vncnt.eu
-* Free to use under the MIT license.
-* http://www.opensource.org/licenses/mit-license.php
-* 
-* This file expects to inherit a ton of stuff from barebones.css
-*/
-
-/* Media Queries
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-/*
-* Note: The best way to structure the use of media queries is to create the queries
-* near the relevant code. For example, if you wanted to change the styles for buttons
-* on small devices, paste the mobile query code up in the buttons section and style it
-* there.
-*/
 @import url('barebones.css');
-
 @media screen and (prefers-color-scheme: dark) {
   :root {
-    /* dark theme: light background, dark text, blue accent */
     --theme-hue: 0;         /* black */
     --accent-hue: 194;      /* blue */
 
@@ -153,6 +133,5 @@ p.reset-margin {
     margin-bottom: 2rem; /*skeleton.css: 2.5rem*/
   }
 }
-
 /* Larger than tablet */
 @media (min-width: 1200px) {}
