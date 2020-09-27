@@ -17,9 +17,8 @@ html {
   --code-background: hsl(var(--theme-hue), 0%, 95%);			/* #f1f1f1 		code background*/
 
   background-size: cover;
-  
+  background-repeat: no-repeat;
 	--base-font-size: 62.5%;
-	
   --grid-max-width: 960px;
   background-image: url(../img/back222.jpg);
 }
