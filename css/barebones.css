@@ -16,14 +16,14 @@ html {
 	--background-color-softer: hsl(var(--theme-hue), 0%, 95%);
   --code-background: hsl(var(--theme-hue), 0%, 95%);			/* #f1f1f1 		code background*/
 
-  /* --button-primary-color: white; */
+background-size: cover;
   
 	--base-font-size: 62.5%;
 	
   --grid-max-width: 960px;
   background-image: url(../img/backrgond.jpg);
 }
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) { 
 	:html {
 		/* dark theme: light background, dark text, blue accent */
 		--theme-hue: 0;					/* black */
